@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-color:#fbf1e3 ;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.navbar, .section-header {
+    background-color: #eb9665;
+    color: white;
+    font-size: 25px;
+}
+.nav-link, .footer-link {
+	color: white;
+    text-decoration: none;
+}
+.navbar-brand {
+    color: white;
+    font-size: 40px;
+}
+.intro-heading, #caroselHeader1, #caroselAroma2 {
+    margin-top: 10px;
+    color: #ec7b39;
+    font-size: 25px;
+}
+#caroselHeader1, .carousel1 {
+    height: 700px; 
+}
+#caroselAroma2, #caroselCoop5 {
+    height: 100%;
+}
+.classOne, .accordion-item {
+    background-color: #fffbf5;
+	padding: 10px;
+}
+.classTwo {
+	min-height: 80px;
+}
+.classThree {
+	min-height: 120px;
+}
+.classFour {
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #fbf1e3;
+}
+
+.accordion-button, .accordion-button:not(.collapsed), .accordion-button:focus {
+    color: var(--bs-white);
+    background-color: #edb492;
+    border-color: #eb9665;
+    box-shadow: none;
+    font-size: 30px;
+}
+
+.form-select, .form-select:not(.collapsed), .form-select:focus {
+	max-width: 250px;
+    background-color: #fffbf5;
+    color: #ec7b39;
+    border-color: #eb9665;
+    box-shadow: none;
+	margin-bottom: 10px;
+}
+.form-label {
+	max-width: 250px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #d05813;
+}
+.modal-content {
+    color: #ec7b39;
+}
+.block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px;
+}
+label, select, input {
+	font-weight: 400;
+	font-size: 20px;
+	color: #d05813;
+	width: 50%;
+	border-radius: 30px;
+	border: none;
+	text-align: center;
+}
+input.totalItems::-webkit-outer-spin-button,
+input.totalItems::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.itemPrice{
+	font-weight: 400;
+	font-size: 50px;
+	color: #d05813;
+}
+.plus, .minus {
+	border: none;
+	background-color: #d05813;
+	color: white;
+}
+
+
+footer {
+	background-color: #eb9665;
+}
+.footercol {
+	list-style: none;
+	padding: 0;
+}
+.footerlist { 
+	list-style: none; 
+	counter-reset: li; 
+}
+.footerlist-li:before { 
+	counter-increment: li; 
+	content: counters(li,".") ". "; 
+}
+
+@media all and (max-width:550px) {
+	.smallImg {
+		width: 300px;
+	}
+	.navbar-brand {
+		font-size: 20px;
+	}
+
+}
